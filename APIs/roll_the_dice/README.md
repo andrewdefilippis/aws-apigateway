@@ -31,4 +31,4 @@ This API requires:
   * The Lambda Function responds with a `HTTP status code (type: int)`, and can optionally include `headers (type: dict)`, and `body (type: str)`
 
 
-[roll_the_dice-python]: https://github.com/andrewdefilippis/aws-lambda/tree/master/Functions/roll_the_dice-python
+[roll_the_dice-python]: https://github.com/andrewdefilippis/aws-lambda/tree/master/Functions/Python/roll_the_dice
