@@ -15,14 +15,14 @@ All responses are configured as JSON objects.
 ## Requirements
 
 This API requires:
-* The Lambda Function [roll_the_dice-python] must be created before the API is created.
+* The Lambda Function [roll_the_dice] must be created before the API is created.
 * Three modifications need to be made to the Swagger Template before importing it into API Gateway.
   * Replace the AWS Account ID `123412341234` in the Lambda Function `uri` with your AWS Account ID.
-    * *"arn:aws:apigateway:us-west-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-west-2:*`123412341234`*:function:roll_the_dice-python/invocations"*
-  * Replace the Lambda Function region `us-west-2` in the `uri` with the region you created the Lambda Function `roll_the_dice-python`.
-    * *"arn:aws:apigateway:us-west-2:lambda:path/2015-03-31/functions/arn:aws:lambda:*`us-west-2`*:123412341234:function:roll_the_dice-python/invocations"*
+    * *"arn:aws:apigateway:us-west-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-west-2:*`123412341234`*:function:roll_the_dice/invocations"*
+  * Replace the Lambda Function region `us-west-2` in the `uri` with the region you created the Lambda Function `roll_the_dice`.
+    * *"arn:aws:apigateway:us-west-2:lambda:path/2015-03-31/functions/arn:aws:lambda:*`us-west-2`*:123412341234:function:roll_the_dice/invocations"*
   * Replace the API Gateway region `us-west-2` in the `uri` with the region you will create the API in.
-    * *"arn:aws:apigateway:us-west-2:lambda:path/2015-03-31/functions/arn:aws:lambda:*`us-west-2`*:123412341234:function:roll_the_dice-python/invocations"*
+    * *"arn:aws:apigateway:us-west-2:lambda:path/2015-03-31/functions/arn:aws:lambda:*`us-west-2`*:123412341234:function:roll_the_dice/invocations"*
 
 ## API Gateway Features Utilized
 
@@ -31,4 +31,4 @@ This API requires:
   * The Lambda Function responds with a `HTTP status code (type: int)`, and can optionally include `headers (type: dict)`, and `body (type: str)`
 
 
-[roll_the_dice-python]: https://github.com/andrewdefilippis/aws-lambda/tree/master/Functions/Python/roll_the_dice
+[roll_the_dice]: https://github.com/andrewdefilippis/aws-lambda/tree/master/Functions/Python/roll_the_dice
