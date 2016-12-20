@@ -10,8 +10,15 @@ APIs that I have created in AWS API Gateway.
 
 ## Includes
 
-### Level 1
-If you are new to using AWS API Gateway, these APIs are for you.
+| Knowledge Level | API Name | Description |
+| --------------- | :------: | ----------- |
+| Beginner | **checkip** | *Return the client's public IP address as a plaintext response body.* |
+| Beginner | **roll_the_dice** | *Return the results of a dice roll using the number of dice and number of sides you define, as a JSON object.* |
 
-**checkip**
-> Return the client's public IP address as a plaintext response body.
+**Knowledge Level Explanation**
+* Beginner
+  * *If you are new to using AWS API Gateway, these APIs are for you.*
+* Intermediate
+  * *These APIs require more in-depth knowledge of API Gateway and/or other AWS Services.*
+* Advanced
+  * *Multiple AWS Services and/or external service integration knowledge is required.*
